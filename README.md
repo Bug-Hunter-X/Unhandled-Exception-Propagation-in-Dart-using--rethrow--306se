@@ -1,0 +1,3 @@
+# Unhandled Exception Propagation in Dart
+
+This repository demonstrates a potential issue with exception handling in Dart using the `rethrow` keyword.  The `bug.dart` file contains code that uses `rethrow` to propagate an exception.  However, if this exception isn't handled appropriately further up the call stack, it could lead to a silent failure.  The `bugSolution.dart` file shows how to improve the exception handling.
